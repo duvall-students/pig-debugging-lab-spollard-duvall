@@ -11,6 +11,7 @@ public class ComputerPlayer extends Player{
 	 *Computer will stop rolling if:
 	 *	- It doesn't have 15 points yet (or MIN_POINTS)
 	 *	- Stopping will win the game.
+	 *  Here's a change!!
 	 */
 	public boolean rollAgain(int totalSoFar) {
 		return (myScore + totalSoFar)<100 && totalSoFar < MIN_POINTS;
